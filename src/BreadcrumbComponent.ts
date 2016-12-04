@@ -14,7 +14,7 @@ interface IBreadcrumb {
     template: `<div class="container-fluid fluid-bread">
   <div class="container">
     <div *ngFor="let breadcrumb of breadcrumbs" class="breadcrumb">
-      <li class="breadcrumb list"><a routerLink="../../../{{breadcrumb.name | lowercase}}">{{breadcrumb.name}}</a></li>
+      <li class="breadcrumb list"><a (click)="navigateToParentBreadcrumb(breadcrumb.name)">{{breadcrumb.name}}</a></li>
       <li class="breadcrumb list"><a [routerLink]="[breadcrumb.url, breadcrumb.params]">{{breadcrumb.label}}</a></li>
     </div>
   </div>
@@ -37,6 +37,11 @@ li.breadcrumb.list{
 export class BreadcrumbComponent implements OnInit {
 
     public breadcrumbs: IBreadcrumb[];
+
+    navigateToParentBreadcrumb(name) {
+        let breadcrumb = name.toLowerCase();
+        this.router.navigate([`/${breadcrumb}`]);
+    }
 
     constructor(private activatedRoute: ActivatedRoute,private router: Router) {
         this.breadcrumbs = [];

@@ -1,6 +1,6 @@
 {
   "name": "ng2-breadcrumbs",
-  "version": "1.2.82",
+  "version": "0.1.13",
   "description": "Angular2 Breadcrumb",
   "main": "./index.js",
   "typings": "ng2-breadcrumbs.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Taulantdisha/ng2-breadcrumbs"
+    "url": "https://github.com/Centroida/ng2-breadcrumb"
   },
   "keywords": [
     "Angular",
@@ -20,20 +20,20 @@
   ],
   "author": "Centroida",
   "license": "MIT",
-  "homepage": "https://github.com/Taulantdisha/ng2-breadcrumbs",
+  "homepage": "https://github.com/Centroida/ng2-breadcrumb",
   "devDependencies": {
-    "typescript": "^2.0.0"
+    "typescript": "^2.0.3"
   },
   "dependencies": {
-    "@angular/core": "2.1.0",
-    "rxjs": "^5.0.0-beta.12",
-    "@angular/router": "^3.1.1",
-    "@angular/common": "2.1.0",
-    "@angular/forms": "2.1.0",
-    "@angular/http": "2.1.0",
-    "@angular/platform-browser": "2.1.0",
-    "@angular/platform-browser-dynamic": "2.1.0",
-    "@angular/platform-server": "2.1.0",
-    "zone.js": "~0.6.17"
+    "@angular/core": "~2.2.0",
+    "rxjs": "5.0.0-beta.12",
+    "@angular/router": "~3.2.0",
+    "@angular/common": "~2.2.0",
+    "@angular/forms": "~2.2.0",
+    "@angular/http": "~2.2.0",
+    "@angular/platform-browser": "~2.2.0",
+    "@angular/platform-browser-dynamic": "~2.2.0",
+    "@angular/platform-server": "~2.2.0",
+    "zone.js": "^0.6.25"
   }
 }
