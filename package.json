@@ -1,15 +1,16 @@
 {
   "name": "ng2-breadcrumbs",
-  "version": "1.2.8",
-  "description": "Angular2 Breadcrumbs",
-  "main": "lib/AngularBreadcrumbs.js",
+  "version": "1.2.82",
+  "description": "Angular2 Breadcrumb",
+  "main": "./index.js",
+  "typings": "ng2-breadcrumbs.d.ts",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Centroida"
+    "url": "https://github.com/Taulantdisha/ng2-breadcrumbs"
   },
   "keywords": [
     "Angular",
@@ -19,9 +20,9 @@
   ],
   "author": "Centroida",
   "license": "MIT",
-  "homepage": "https://github.com/Centroida",
+  "homepage": "https://github.com/Taulantdisha/ng2-breadcrumbs",
   "devDependencies": {
-    "typescript": "^1.7.5"
+    "typescript": "^2.0.0"
   },
   "dependencies": {
     "@angular/core": "2.1.0",

@@ -34,7 +34,7 @@ li.breadcrumb.list{
     `]
 })
 
-export class AngularBreadcrumbs implements OnInit {
+export class BreadcrumbComponent implements OnInit {
 
     public breadcrumbs: IBreadcrumb[];
 
